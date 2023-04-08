@@ -1,0 +1,27 @@
+.mainWrapper {
+  padding: 8px 12px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.topicLists {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topicItem {
+  margin: 4px;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.random {
+  color: red;
+}

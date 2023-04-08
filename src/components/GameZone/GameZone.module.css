@@ -1,0 +1,45 @@
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+.title2 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 8px;
+}
+
+.options,
+.selectedItems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.option,
+.selectedItem {
+  margin: 4px;
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.selectedItemWrapper {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.disable {
+  cursor: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .gameZoneWrapper {
+  }
+}
